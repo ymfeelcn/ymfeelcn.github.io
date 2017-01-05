@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>YangMing&#39;s Blog</title>
+  <title>Git SSH Key 生成步骤 | YangMing&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="记录工作,生活中遇到的各种问题">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YangMing's Blog">
-<meta property="og:url" content="https://ymfeelcn.github.io/index.html">
+  <meta name="description" content="Git是分布式的代码管理工具，远程的代码管理是基于SSH的，所以要使用远程的Git则需要SSH的配置。github的SSH配置如下：
+一、设置Git的user name和email：123# 输入你自己的用户名和邮箱$ git config --global user.name &quot;ymfeelcn&quot;$ git config --global user.email &quot;ymfeelcn@gmail.c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git SSH Key 生成步骤">
+<meta property="og:url" content="https://ymfeelcn.github.io/2017/01/06/Git-SSH-Key-生成步骤/index.html">
 <meta property="og:site_name" content="YangMing's Blog">
-<meta property="og:description" content="记录工作,生活中遇到的各种问题">
+<meta property="og:description" content="Git是分布式的代码管理工具，远程的代码管理是基于SSH的，所以要使用远程的Git则需要SSH的配置。github的SSH配置如下：
+一、设置Git的user name和email：123# 输入你自己的用户名和邮箱$ git config --global user.name &quot;ymfeelcn&quot;$ git config --global user.email &quot;ymfeelcn@gmail.c">
+<meta property="og:updated_time" content="2017-01-05T18:32:53.743Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YangMing's Blog">
-<meta name="twitter:description" content="记录工作,生活中遇到的各种问题">
+<meta name="twitter:title" content="Git SSH Key 生成步骤">
+<meta name="twitter:description" content="Git是分布式的代码管理工具，远程的代码管理是基于SSH的，所以要使用远程的Git则需要SSH的配置。github的SSH配置如下：
+一、设置Git的user name和email：123# 输入你自己的用户名和邮箱$ git config --global user.name &quot;ymfeelcn&quot;$ git config --global user.email &quot;ymfeelcn@gmail.c">
   
     <link rel="alternate" href="/atom.xml" title="YangMing&#39;s Blog" type="application/atom+xml">
   
@@ -68,9 +72,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Git-SSH-Key-生成步骤" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Git-SSH-Key-生成步骤" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/01/06/Git-SSH-Key-生成步骤/" class="article-date">
   <time datetime="2017-01-05T17:58:00.000Z" itemprop="datePublished">2017-01-06</time>
@@ -87,8 +89,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/06/Git-SSH-Key-生成步骤/">Git SSH Key 生成步骤</a>
+    <h1 class="article-title" itemprop="name">
+      Git SSH Key 生成步骤
     </h1>
   
 
@@ -117,59 +119,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/01/05/hello-world/" class="article-date">
-  <time datetime="2017-01-05T03:10:00.000Z" itemprop="datePublished">2017-01-05</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/default/">default</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/05/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2017/01/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://ymfeelcn.github.io/2017/01/05/hello-world/" data-id="cixklcf200004qohi53bvgm6z" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
 
 </section>
         
