@@ -8,3 +8,10 @@ section {
     padding-right: 1rem;
   }
 }
+
+.hero-section {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
